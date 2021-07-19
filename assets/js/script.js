@@ -221,6 +221,8 @@ $("#trash").droppable({
   accept: ".card .list-group-item",
   tolerance: "touch",
   drop: function (event, ui) {
+    // jQuery 's remove() method works just like a regular JavaScript remove() and 
+    // will remove that element from the DOM entirely.
     ui.draggable.remove();
   },
   over: function (event, ui) {
