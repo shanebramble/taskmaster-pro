@@ -189,8 +189,17 @@ var auditTask = function (taskEl) {
 
   // this should print out an object for the value of the date variable, but at 5:00pm of that date
   console.log(time);
+  
 
 };
+// In the previous example, we multiply 1, 000 milliseconds by 60 to convert it to 
+// 1 minute.Then we multiply that minute by 30 to get a 30 - minute timer.
+
+setInterval(function () {
+  $(".card .list-group-item").each(function (index, el) {
+    auditTask(el);
+  });
+}, 1800000); // or (1000 * 60) * 30);
 
 // The activate and deactivate events trigger once
 // for all connected lists as soon as dragging starts and stops.
