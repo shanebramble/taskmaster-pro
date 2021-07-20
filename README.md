@@ -4,6 +4,8 @@
 
 A company called Taskmaster has recruited me to expand their task-management application. To do this, I will need to work with their existing codebase, which was built using jQuery, a third-party JavaScript library that simplifies DOM manipulation, and the front-end CSS library Bootstrap.
 
+![Working Taskmaster](assets/images/taskmaster-profile.jpg "Working Taskmaster Pro")
+
 ## Deployed Website
 
 <https://shanebramble.github.io/taskmaster-pro>
